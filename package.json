@@ -1,0 +1,44 @@
+{
+  "name": "@devendor/sn-payload-hashcode",
+  "version": "1.0.0",
+  "description": "Generate and/or verify the hashcode for sys_update_xml payloads in vanilla javascript.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --plugins @babel/plugin-transform-modules-commonjs src -d lib"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cli": "./cli.js"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devendor/sn-payload-hashcode.git"
+  },
+  "keywords": [
+    "servicenow",
+    "hashcode"
+  ],
+  "bin": {
+    "sn-payload-hashcode": "lib/cli.js"
+  },
+  "author": "Raymond Ferguson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devendor/sn-payload-hashcode/issues"
+  },
+  "homepage": "https://github.com/devendor/sn-payload-hashcode#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "eslint": "^8.14.0",
+    "eslint-plugin-jsdoc": "^39.2.9",
+    "eslint-plugin-node": "^11.1.0",
+    "js-beautify": "^1.14.3"
+  },
+  "dependencies": {
+    "nopt": "^5.0.0"
+  }
+}
