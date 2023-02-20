@@ -20,8 +20,10 @@
     let hashCode = require('.').calculatePayloadHashCode(sys_update_version_xml);
     if (hashCode == 2078306678){
         console.log('passed');
+        process.exit(0);
     } else {
         console.log(failed);
+        process.exit(1);
     }
 
 }
