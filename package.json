@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Generate and/or verify the hashcode for sys_update_xml payloads in vanilla javascript.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel --plugins @babel/plugin-transform-modules-commonjs src -d lib"
+      "test": "nodejs <test/test_payloadHashCode.js"
   },
   "main": "index.js",
   "exports": {
