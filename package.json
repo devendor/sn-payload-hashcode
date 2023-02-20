@@ -6,6 +6,15 @@
       "test": "nodejs <test/test_payloadHashCode.js"
   },
   "main": "index.js",
+  "files": [
+      "./index.js",
+      "./cli.js",
+      "./package.json",
+      "./lib/strHashCode.js",
+      "./lib/payloadHashCode.js",
+      "./README.md",
+      "./LICENSE.md"
+  ],
   "exports": {
     ".": "./index.js",
     "./cli": "./cli.js"
@@ -20,7 +29,7 @@
     "hashcode"
   ],
   "bin": {
-    "sn-payload-hashcode": "lib/cli.js"
+    "sn-payload-hashcode": "cli.js"
   },
   "author": "Raymond Ferguson",
   "license": "ISC",
