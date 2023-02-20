@@ -1,6 +1,10 @@
 # Summary
 Pure js module to reproduce the "hashcode" on sys_update_xml files within servicenow.
 
+# Install
+```shell
+npm install @devendor/sn-payload-hashcode --save-dev
+```
 # Exports
 ## strHashCode and polyfill
 
@@ -82,6 +86,7 @@ ac</sys_package>',
 ## help
 ```shell
 
+# Note: ./cli.js gets install into ./node_modules/.bin/sn-payload-hashcode
 rferguson@mendota:~/code/sn-payload-hashcode$ ./cli.js -h
 Reading from STDIN
 cli.js@1.0.0

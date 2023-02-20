@@ -1,19 +1,19 @@
 {
   "name": "@devendor/sn-payload-hashcode",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate and/or verify the hashcode for sys_update_xml payloads in vanilla javascript.",
   "scripts": {
       "test": "nodejs <test/test_payloadHashCode.js"
   },
   "main": "index.js",
   "files": [
-      "./index.js",
-      "./cli.js",
-      "./package.json",
-      "./lib/strHashCode.js",
-      "./lib/payloadHashCode.js",
-      "./README.md",
-      "./LICENSE.md"
+      "index.js",
+      "cli.js",
+      "package.json",
+      "lib/strHashCode.js",
+      "lib/payloadHashCode.js",
+      "README.md",
+      "LICENSE.md"
   ],
   "exports": {
     ".": "./index.js",

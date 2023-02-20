@@ -211,6 +211,7 @@ async function interpret(argv, slice) {
         process.exit(0);
     }
     /* eslint-enable */
+    parsed.files.sort();
     let result = {};
     let i;
     for (i = 0; i < parsed.files.length; i++) {
